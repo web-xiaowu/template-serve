@@ -1,0 +1,58 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\xiaowu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @koa/cors
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Android;C:\Windows\System32;D:\xShell\;D:\Git\cmd;D:\mongo\bin;D:\nodejs\;C:\Program Files\dotnet\;D:\Google\Chrome\Application;C:\Users\xiaowu\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\xiaowu\AppData\Local\Programs\Python\Python36\;C:\Users\xiaowu\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\xiaowu\AppData\Local\Programs\Python\Python35\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Vmware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Android;C:\Windows\System32;D:\xShell\;D:\Git\cmd;D:\mongo\bin;D:\nodejs\;C:\Program Files\dotnet\;C:\Users\xiaowu\AppData\Local\Microsoft\WindowsApps;C:\Users\xiaowu\AppData\Roaming\Composer\vendor\bin;C:\Users\xiaowu\AppData\Local\Programs\Microsoft VS Code\bin;D:\Idea\IntelliJ IDEA 2022.3.2\bin;;C:\Users\xiaowu\AppData\Roaming\npm;C:\path\to\chromedriver_directory;D:\PyCharm 2023.1\bin;;D:\PyCharm Community Edition 2020.3.2\bin;;D:\workplaces\blog\blog-test\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\xiaowu\AppData\Local\Yarn\Cache\v6\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity\node_modules\ms\index.js' -> 'D:\workplaces\blog\blog-test\node_modules\debug\node_modules\ms\index.js'
+
+npm manifest: 
+  {
+    "name": "blog-test",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node bin/www",
+      "dev": ".\\node_modules\\.bin\\nodemon bin\\www",
+      "prd": "pm2 start bin/www",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "debug": "^4.1.1",
+      "jsonwebtoken": "^9.0.0",
+      "koa": "^2.7.0",
+      "koa-bodyparser": "^4.2.1",
+      "koa-convert": "^1.2.0",
+      "koa-cors": "^0.0.16",
+      "koa-json": "^2.0.2",
+      "koa-jwt": "^4.0.4",
+      "koa-logger": "^3.2.0",
+      "koa-onerror": "^4.1.0",
+      "koa-router": "^7.4.0",
+      "koa-static": "^5.0.0",
+      "koa-views": "^6.2.0",
+      "log4js": "^6.9.1",
+      "mongoose": "^7.0.3",
+      "pug": "^2.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

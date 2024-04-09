@@ -1,0 +1,164 @@
+[2023-04-10T14:57:35.537] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("643380fe4bf98c53ab842bdc"),
+  name: '123',
+  permissions: [],
+  create_time: '1681096948624',
+  __v: 0
+}
+[2023-04-10T14:57:49.642] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("64338113b480bc5432393459"),
+  name: '1',
+  permissions: [],
+  create_time: '1681096974592',
+  __v: 0
+}
+[2023-04-10T14:57:51.001] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("64339453acb26c9ecf47bf1c"),
+  name: '123123',
+  permissions: [],
+  create_time: '1681101893171',
+  __v: 0
+}
+[2023-04-10T14:57:52.194] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("6433947b9226e5755bc2b8d8"),
+  name: '312321321',
+  permissions: [],
+  create_time: '1681101942638',
+  __v: 0
+}
+[2023-04-10T14:57:53.328] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("64339b9f33e674d9a9204ec7"),
+  name: '3213213',
+  permissions: [],
+  create_time: '1681103759126',
+  __v: 0
+}
+[2023-04-10T14:57:54.437] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("6433a4bde3ffc907259ebc53"),
+  name: '321321312',
+  permissions: [],
+  create_time: '1681106071780',
+  __v: 0
+}
+[2023-04-10T15:00:43.398] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("6433b3fc567852fbf4b0b79b"),
+  name: '123',
+  permissions: [],
+  create_time: '1681109890315',
+  __v: 0
+}
+[2023-04-10T15:01:23.249] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("6433b420567852fbf4b0b7bb"),
+  name: '12321',
+  description: '',
+  permissions: [],
+  create_time: '1681109890315',
+  __v: 0
+}
+[2023-04-10T15:01:28.096] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("6433b446567852fbf4b0b7db"),
+  name: '12321312',
+  description: '3213',
+  permissions: [],
+  create_time: '1681109890315',
+  __v: 0
+}
+[2023-04-10T15:04:18.683] [DEBUG] debug - 删除菜单{
+  _id: new ObjectId("6433b4f0567852fbf4b0b811"),
+  name: 'test',
+  path: '123213',
+  icon: '312321',
+  type: 1,
+  code: '',
+  state: true,
+  component: '312312',
+  parentId: null,
+  create_time: '1681109890317',
+  __v: 0
+}
+[2023-04-10T22:03:20.702] [DEBUG] debug - 删除权限{
+  _id: new ObjectId("6434163a23709d55ce065870"),
+  name: 'test',
+  description: '312321',
+  menu: new ObjectId("643109ed02e56f732a939ea8"),
+  parentId: null,
+  api: null,
+  create_time: '1681135007126',
+  __v: 0
+}
+[2023-04-10T22:04:07.413] [DEBUG] debug - 删除权限{
+  _id: new ObjectId("643417540cabb16b4db21dcc"),
+  name: 'test',
+  description: '3123213',
+  menu: new ObjectId("643109ed02e56f732a939ea8"),
+  parentId: null,
+  api: null,
+  create_time: '1681135368265',
+  __v: 0
+}
+[2023-04-10T23:28:40.099] [DEBUG] debug - 删除api{
+  _id: new ObjectId("64342b258a74cac4cf2f2d67"),
+  name: 'test',
+  api: '123',
+  method: 'GET',
+  description: '123',
+  state: true,
+  create_time: '1681138829873',
+  __v: 0
+}
+[2024-02-04T20:31:34.726] [DEBUG] debug - 删除菜单{
+  _id: new ObjectId("6434eb886417963af6e9e70c"),
+  name: '文章列表',
+  path: '/articles',
+  icon: 'el-icon-menu',
+  type: 1,
+  code: '',
+  state: true,
+  component: 'Article',
+  parentId: new ObjectId("6434eb136417963af6e9e6fa"),
+  create_time: '1681181719608',
+  __v: 0
+}
+[2024-03-05T11:27:51.617] [DEBUG] debug - 删除角色{
+  _id: new ObjectId("65e69135145fc4c739cb4911"),
+  name: '1',
+  description: '1',
+  permissions: [],
+  create_time: '1709602122737',
+  __v: 0
+}
+[2024-03-13T16:06:02.481] [DEBUG] debug - 删除分类{
+  _id: new ObjectId("65f15b8ba4280db837670fd5"),
+  name: '我是你爹',
+  state: true,
+  create_time: '1710298091538',
+  __v: 0
+}
+[2024-03-13T16:08:19.245] [DEBUG] debug - 删除分类{
+  _id: new ObjectId("65f156dba4280db837670fc2"),
+  name: '123123123',
+  state: true,
+  create_time: '1710298091538',
+  __v: 0
+}
+[2024-03-13T16:08:20.792] [DEBUG] debug - 删除分类{
+  _id: new ObjectId("65f155dba4280db837670fae"),
+  name: '123123',
+  state: true,
+  create_time: '1710298091538',
+  __v: 0
+}
+[2024-03-13T16:25:07.077] [DEBUG] debug - 删除分类{
+  _id: new ObjectId("65f16142c1d1c8713e0f174d"),
+  name: 'wqewqewqe',
+  state: true,
+  create_time: '1710317499557',
+  __v: 0
+}
+[2024-03-21T17:20:22.766] [DEBUG] debug - 删除分类{
+  _id: new ObjectId("65f1628dc1d1c8713e0f178c"),
+  name: 'adasdsdasdas ',
+  state: true,
+  create_time: '1710317499557',
+  __v: 0
+}
